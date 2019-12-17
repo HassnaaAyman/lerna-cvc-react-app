@@ -7,7 +7,7 @@
     "lerna": "^3.19.0"
   },
   "scripts": {
-    "test":"lerna run test --scope=@packages/web",
+    "test":"lerna run test --scope=@packages/common",
     "new-version":"lerna-version --conventional-commits --yes",
     "diff":"lerna diff"
   },
